@@ -1,0 +1,38 @@
+﻿<Window x:Class="KrampusUI.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+		mc:Ignorable="d"
+		Title="Krampus"
+        Height="450"
+        Width="800"
+		Background="Transparent"
+		WindowStyle="None"
+		ResizeMode="NoResize"
+		AllowsTransparency="True"
+		MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Closing="Window_Closing">
+	<Border CornerRadius="10" BorderBrush="#1b1b1b" BorderThickness="3" Padding="6" Background="#1e1e1e">
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="40"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+			</Grid.RowDefinitions>
+
+			<StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <Label Name="TitleBox" Content="Krampus" FontSize="15" Foreground="White" Margin="5,0,0,0" Width="665"/>
+                <Image Source="Assets/SettingsIcon.png" MouseLeftButtonDown="SettingsButtonImage_MouseDown" Height="30" Width="30"></Image>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Width="10"></StackPanel>
+				<Image Source="Assets/InjectIcon.png" MouseLeftButtonDown="InjectButton_MouseLeftButtonDown" Height="30" Width="30"></Image>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Width="10"></StackPanel>
+				<Image Source="Assets/ExecuteIcon.png" MouseLeftButtonDown="ExecuteButtonImage_MouseDown" Height="30" Width="30"/>
+			</StackPanel>
+
+			<Grid Grid.Row="1">
+				<wv2:WebView2 Name="webView"></wv2:WebView2>
+			</Grid>
+		</Grid>
+	</Border>
+</Window>

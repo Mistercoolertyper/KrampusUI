@@ -1,0 +1,29 @@
+﻿<Window x:Class="KrampusUI.SettingsWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d"
+		Title="Title"
+		Height="300"
+		Width="200"
+		Background="Transparent"
+		WindowStyle="None"
+		ResizeMode="NoResize"
+		AllowsTransparency="True"
+        Topmost="True">
+    <Border CornerRadius="10" BorderBrush="#1b1b1b" BorderThickness="3" Padding="6" Background="#1e1e1e">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <CheckBox Name="TopMostBox" Grid.Row="0" Content="Top Most" Background="White" Foreground="White" Click="TopMostBox_Click" ></CheckBox>
+            <CheckBox Name="AutoAttachBox" Grid.Row="1" Content="Auto Attach" Background="White" Foreground="White" Click="AutoAttachBox_Click"></CheckBox>
+            <Button Name="CloseButton" Grid.Row="3" Content="Close" Click="CloseButton_Click" VerticalAlignment="Bottom" Background="Transparent" Foreground="White"></Button>
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="KrampusUI.LoginWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		mc:Ignorable="d"
+		Title="Login"
+        Height="200"
+        Width="600"
+		Background="Transparent"
+		WindowStyle="None"
+		ResizeMode="NoResize"
+		WindowStartupLocation="CenterScreen">
+	<Border CornerRadius="10" BorderBrush="#1b1b1b" BorderThickness="3" Padding="6" Background="#1e1e1e">
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="70"></RowDefinition>
+				<RowDefinition Height="20"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+			</Grid.RowDefinitions>
+
+			<Label Grid.Row="0" HorizontalAlignment="Center" Foreground="White" Content="Login" FontSize="15"></Label>
+			<TextBox Name="LoginTokenBox" Grid.Row="1" Text="Login Token" HorizontalAlignment="Center" Width="300" TextAlignment="Center" Background="#1b1b1b" Foreground="White" BorderThickness="2" BorderBrush="Black"></TextBox>
+			<Button Content="Login" Grid.Row="2" HorizontalAlignment="Center" Width="50" Height="20" Background="Transparent" Foreground="White" Click="Button_Click"></Button>
+		</Grid>
+	</Border>
+</Window>
