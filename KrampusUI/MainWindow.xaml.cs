@@ -161,7 +161,8 @@ namespace KrampusUI
 						RedirectStandardOutput = true,
 						UseShellExecute = false,
 						CreateNoWindow = true,
-						WindowStyle = ProcessWindowStyle.Hidden
+						WindowStyle = ProcessWindowStyle.Hidden,
+						WorkingDirectory = new FileInfo(krampusExe).DirectoryName
 					}
 				};
 				process.Start();

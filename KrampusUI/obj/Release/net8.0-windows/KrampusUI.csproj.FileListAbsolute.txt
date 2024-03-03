@@ -157,3 +157,4 @@ D:\Backups\Users\LeonW\Desktop\Programming\Visual Studio 2022\Roblox\KrampusUI\K
 D:\Backups\Users\LeonW\Desktop\Programming\Visual Studio 2022\Roblox\KrampusUI\KrampusUI\obj\Release\net8.0-windows\KrampusUI.pdb
 D:\Backups\Users\LeonW\Desktop\Programming\Visual Studio 2022\Roblox\KrampusUI\KrampusUI\obj\Release\net8.0-windows\KrampusUI.genruntimeconfig.cache
 D:\Backups\Users\LeonW\Desktop\Programming\Visual Studio 2022\Roblox\KrampusUI\KrampusUI\obj\Release\net8.0-windows\ref\KrampusUI.dll
+D:\Backups\Users\LeonW\Desktop\Programming\Visual Studio 2022\Roblox\KrampusUI\KrampusUI\obj\Release\net8.0-windows\KrampusUI.sourcelink.json
