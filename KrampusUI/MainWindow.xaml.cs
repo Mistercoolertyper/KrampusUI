@@ -109,6 +109,7 @@ namespace KrampusUI
 						lastPid = process.Id;
 						bool res = WaitForRobloxWindow(process);
 						if (!res) continue;
+						Thread.Sleep(5000);
 						Inject();
 					}
 					Thread.Sleep(1000);
