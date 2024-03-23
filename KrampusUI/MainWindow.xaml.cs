@@ -173,9 +173,9 @@ namespace KrampusUI
 					SetTitle("Krampus - Injected");
 					Thread.Sleep(5000);
 					SetTitle("Krampus");
-					injecting = false;
 				}
-			});
+                injecting = false;
+            });
 		}
 
 		private void InjectButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

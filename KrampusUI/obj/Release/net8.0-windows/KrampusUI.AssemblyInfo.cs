@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrampusUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7fba77ff47cef0d83d2b27beea202b3d5acb422")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c98f83d2882c3029ff952935aac9bfc41971af3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrampusUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrampusUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
